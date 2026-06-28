@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/amine12344/mlops-training-01.git
-    targetRevision: feat/upgrade-application
+    repoURL: https://github.com/Nessrin1990/Formation1.git
+    targetRevision: master
     path: helm/mlops-training
     helm:
       values: |
