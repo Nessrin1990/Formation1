@@ -1,0 +1,17 @@
+{
+  "name": "docker-live-labs-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "esbuild app.js --bundle --platform=node --outfile=dist/app.js",
+    "start": "node app.js",
+    "health": "node health.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  }
+}

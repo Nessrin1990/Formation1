@@ -1,0 +1,14 @@
+global:
+  imagePullPolicy: Always
+  imagePullSecrets:
+    - ghcr-secret
+
+api:
+  image:
+    repository: ghcr.io/amine12344/mlops-training-01/api
+    tag: sha-eeb77e4cee129b5c50f1f13bbcebe98a228c9290
+
+frontend:
+  image:
+    repository: ghcr.io/amine12344/mlops-training-01/frontend
+    tag: sha-eeb77e4cee129b5c50f1f13bbcebe98a228c9290
